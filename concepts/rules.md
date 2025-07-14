@@ -270,7 +270,7 @@ Other times the helper library must be installed separately, searching in the co
 
 ## Comprehensive Examples
 
-The following code snippets implement the examples from the top of this page using UI rules, [DSL rules](/docs/configuration/rules-dsl), [JRuby Scripting](/addons/automation/jrubyscripting/), and [JS Scripting](https://openhab.org/addons/automation/jsscripting).
+The following code snippets implement the examples from the top of this page using UI rules, [DSL rules](/docs/configuration/rules-dsl.html), [JRuby Scripting](/addons/automation/jrubyscripting/), and [JS Scripting](/addons/automation/jsscripting).
 
 The code from the JS Scripting examples can be used in file-based scripts that are created inside the `/automation/js` folder and have `.js` as their file extension.
 The same applies for the JRuby examples, but they have to be placed inside `/automation/ruby` with `.rb` as the file extension.

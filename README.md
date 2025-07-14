@@ -121,7 +121,7 @@ This will also allow you to preview how the page renders on different devices us
 
 ## Documentation Versioning
 
-Just as openHAB is released in versions, the documentation website provides fixed versions of the documentation articles, e.g., [https://www.openhab.org/v2.2/installation/linux.html](https://www.openhab.org/v2.2/installation/linux.html)
+Just as openHAB is released in versions, the documentation website provides fixed versions of the documentation articles, e.g. <https://v40.openhab.org/docs/installation/linux.html>.
 
 Please see [this issue](https://github.com/openhab/openhab-docs/issues/520#issuecomment-339741820) for all details regarding the tagging and branching approach.
 In short, the following has to be considered:

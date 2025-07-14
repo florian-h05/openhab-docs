@@ -1,0 +1,32 @@
+{
+  "ignorePatterns": [
+    { "pattern": "^http://0.0.0.0" },
+    { "pattern": "^http://localhost" },
+    { "pattern": "^http://myopenhab-server" },
+    { "pattern": "^/addons/bindings" },
+    { "pattern": "^/addons/automation" }
+  ],
+  "replacementPatterns": [
+    {
+      "pattern": "(?<=^({{base}})?[-.A-z/]+)\\.html(?=(#[-A-z])?)",
+      "replacement": ".md"
+    },
+    {
+      "pattern": "%7B%7Bbase%7D%7D",
+      "replacement": "{{BASEURL}}"
+    },
+    {
+      "pattern": "{{base}}",
+      "replacement": "{{BASEURL}}"
+    },
+    {
+      "pattern": "^/docs",
+      "replacement": "{{BASEURL}}"
+    },
+    {
+      "pattern": "^/",
+      "replacement": "{{BASEURL}}/"
+    }
+  ],
+  "aliveStatusCodes": [200, 0]
+}
